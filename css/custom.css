@@ -1,0 +1,90 @@
+.custom-bg-pink{
+    background-color: rgba(248, 237, 246, 0.3);
+}
+
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* #images div{
+    transition: 1s;
+}
+
+#images div:hover{
+    width: 30%;
+}
+
+#images div img{
+    filter: none;
+    transition: 1s;
+}
+
+#images:hover img{
+    filter: blur(5px);
+}
+
+#images div img:hover{
+    filter: none;
+} */
+
+/* #images div img:hover ~ img, 
+#images div img:not(:hover){
+    filter: blur(5px);
+} */
+
+body{
+    background-color: rgba(245, 228, 241, 0.3);
+}
+
+.vh-80{
+    height: 80vh;
+}
+
+.vh-70{
+    height: 70vh;
+}
+
+.vh-60{
+    height: 60vh;
+}
+
+.vh-50{
+    height: 50vh;
+}
+
+.custom-a{
+    border: 2px solid white;
+    color: white;
+}
+
+.custom-a-gray{
+    color: #757575;
+}
+
+#menu img{
+    transition: 1s;
+}
+
+#menu img:hover{
+    width: 105%;
+    margin-right: 2rem;
+}
+
+.custom-size{
+    width: 10%;
+    height: 10%;
+}
+
+@media (max-width: 800px){
+    #menu #price, 
+    #menu #description{
+        display: none;
+    }
+}
+
+@media (max-width: 350px){
+    #menu #title{
+        display: none;
+    }
+}
